@@ -1,0 +1,15 @@
+body {
+    display: block;
+}
+.inner-title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.link-wrapper {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
