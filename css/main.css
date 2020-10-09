@@ -1,6 +1,30 @@
 body {
     margin: 0;
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    /* background: rgb(133,125,33);
+    background: radial-gradient(circle, rgba(133,125,33,1) 0%, rgba(0,100,255,1) 0%, rgba(133,33,33,1) 100%); */
+    /* background: rgb(33,133,96);
+    background: radial-gradient(circle, rgba(33,133,96,1) 46%, rgba(0,100,255,1) 100%); */
+    background: rgb(0,100,255);
+    background: radial-gradient(circle, rgba(0,100,255,1) 0%, rgba(33,133,96,1) 100%);
+    box-sizing: border-box;
 }
 .hide {
     display: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #ffffff;
+    background: ;
 }

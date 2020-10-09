@@ -41,10 +41,17 @@
 // console.log(ulObj);
 // console.log(iframe);
 
-window.addEventListener('load', () => {
+// window.addEventListener('load', () => {
+    // const iframe = document.querySelector('iframe');
+    // const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+    
+    // console.log(iframeDocument);
+// });
+
+setTimeout(() => {
     const iframe = document.querySelector('iframe');
     const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
     
     console.log(iframeDocument);
-});
+}, 3000);
 
