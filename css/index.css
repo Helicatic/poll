@@ -1,0 +1,9 @@
+@media (max-height: 410px) {
+    body {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    a {
+        display: block;
+    }
+}
